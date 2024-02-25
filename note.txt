@@ -1,0 +1,25 @@
+
+
+- tạo dự án mới: npx create-react-app .
+
+- Khởi chạy dự án: npm start
+
+- Tạo component: rcc ~ class / rfc ~ function
+
+- DataBinding: đưa data (variable , function) render lên layout thông qua {}
+
+- State: Quản lý các data liên quan đến update layout (re-render)
+
+- Props: Tương tác (Truyền data) giữa 2 component cha con
+
+- this.props: Nhận data từ component cha truyền vào
+
+
+---Redux---
+- Redux ra đời để giải quyết vấn đề truyền Props - Tránh truyền qua quá nhiều thằng trung gian
+
+- Reducer: Viết logic update state 
+
+- mapStateToProps: Lấy data từ redux về (Thông qua connect)
+
+- mapDispatchToProps: Đẩy data lên redux
